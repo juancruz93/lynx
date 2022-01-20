@@ -16,6 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/mohamedsamara/mern-ecommerce.git"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "keywords": [
     "node",
     "express",
