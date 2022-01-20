@@ -1,10 +1,6 @@
 require('dotenv').config();
 const express = require('express');
 const chalk = require('chalk');
-const webpack = require('webpack');
-const webpackMiddleware = require('webpack-dev-middleware');
-const webpackHotMiddleware = require('webpack-hot-middleware');
-const historyApiFallback = require('connect-history-api-fallback');
 const compression = require('compression');
 const cors = require('cors');
 const mongoose = require('mongoose');
