@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express');
+const historyApiFallback = require('connect-history-api-fallback');
 const chalk = require('chalk');
 const compression = require('compression');
 const cors = require('cors');
